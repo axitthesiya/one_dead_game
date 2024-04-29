@@ -1,0 +1,114 @@
+* {
+  margin: 150;
+  padding: 150;
+}
+
+.top-button {
+  background-color: #fff;
+  font-size: medium;
+  border: 2px solid #d1d5db;
+  height: 40px;
+  width:100px;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 1125px;
+}
+
+.main-div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.rectangle-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-buttons {
+  display: flex;
+}
+.rectangle-class {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .rectangle-values {
+  border: 2px solid #d1d5db;
+  height: 200px;
+  width: 765px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-top: 4px;
+  padding-top: 4rem;
+} 
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  background-color: #d1d5db;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  border: none;
+}
+.top-button-div {
+  text-align: end;
+}
+
+.big-font {
+  font-size: 75px; 
+  text-align: center;
+}
+.history-btn {
+  margin-right: 20rem;
+}
+
+.first-part {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.second-part {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.third-part {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.forth-part {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.class-main {
+    border: 2px solid #d1d5db;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+}
+.count-btn {
+  margin-left: 50rem;
+}

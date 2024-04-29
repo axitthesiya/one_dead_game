@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>One Dead Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="class-main">
+      <div class="container">
+        <div class="top-button-div">
+          <button class="btn btn-info btn-md count-btn">1</button>
+
+          <button
+            type="button"
+            class="btn btn-info btn-md history-btn"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            History
+          </button>
+        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                <h4 class="modal-title">History</h4>
+              </div>
+              <div class="modal-body">
+                <table id="historyTable" class="table">
+                  <thead>
+                    <tr>
+                      <th>Attempt</th>
+                      <th>Code</th>
+                      <th>Dead</th>
+                      <th>Injured</th>
+                    </tr>
+                  </thead>
+                  <tbody id="historyBody"></tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="main-div">
+        <div class="rectangle-class big-font">
+          <div class="rectangle-values" id="displayDiv"></div>
+        </div>
+        <br />
+      </div>
+      <br />
+      <div class="main-part">
+        <div class="first-part">
+          <button class="rectangle" onclick="appendToDisplay(1)">1</button>
+          <button class="rectangle" onclick="appendToDisplay(2)">2</button>
+          <button class="rectangle" onclick="appendToDisplay(3)">3</button>
+        </div>
+        <br />
+        <div class="second-part">
+          <button class="rectangle" onclick="appendToDisplay(4)">4</button>
+          <button class="rectangle" onclick="appendToDisplay(5)">5</button>
+          <button class="rectangle" onclick="appendToDisplay(6)">6</button>
+        </div>
+        <br />
+        <div class="third-part">
+          <button class="rectangle" onclick="appendToDisplay(7)">7</button>
+          <button class="rectangle" onclick="appendToDisplay(8)">8</button>
+          <button class="rectangle" onclick="appendToDisplay(9)">9</button>
+        </div>
+        <br />
+        <div class="forth-part" id="buttonContainer">
+          <button class="rectangle" onclick="clearDisplay()">Clear</button>
+          <button class="rectangle" onclick="appendToDisplay(0)">0</button>
+          <button class="rectangle" onclick="enterNumber()">Enter</button>
+        </div>
+        <br />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
